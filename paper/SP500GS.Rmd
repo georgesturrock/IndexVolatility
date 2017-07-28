@@ -14,7 +14,7 @@ This assignment focuses on calculating illustrating volatility of the S&P500 and
 
 ### Github Repository
 The code and markdown documents for this assignment can be found on GitHub using the URL below:
-https://github.com/georgesturrock/IndexVolatility/paper/SP500GS.md
+https://github.com/georgesturrock/IndexVolatility/blob/master/paper/SP500GS.md
 
 ### Install packages and load libraries
 The "tseries" library is required to get market close quotes and calculate daily returns as input in to the volatility calculation.  The chunk below will only install the "tseries" package if it has not already been installed in the host environment.
