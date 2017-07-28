@@ -5,7 +5,7 @@ This assignment focuses on calculating illustrating volatility of the S&P500 and
 
 ### Github Repository
 
-The code and markdown documents for this assignment can be found on GitHub using the URL below: <https://github.com/georgesturrock/IndexVolatility/paper/SP500GS.md>
+The code and markdown documents for this assignment can be found on GitHub using the URL below: <https://github.com/georgesturrock/IndexVolatility/blob/master/paper/SP500GS.md>
 
 ### Install packages and load libraries
 
