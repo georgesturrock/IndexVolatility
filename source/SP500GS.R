@@ -1,7 +1,7 @@
 ################################################
 ### MSDS Doing Data Science - Homework 11
 ### George Sturrock
-### Volatility Analysis of the SP500 and NASDAQ
+### Volatility Analysis of the SP500
 ################################################
 
 # install "tseries" if not already installed
