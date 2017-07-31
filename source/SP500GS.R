@@ -47,22 +47,3 @@ volest3 <- Vol(100,SNPret)
 plot(volest,type="l", main = "SP500 Volatility", ylab = "Volatility")
 lines(volest2,type="l",col="red")
 lines(volest3, type = "l", col="blue")
-
-# Download NADSAQ data 
-NSDQdata <- get.hist.quote('^ixic',quote="Close")
-
-# Calculate NASDAQ log returns
-NSDQret <- log(lag(NSDQdata)) - log(NSDQdata)
-
-# Calculate NASDAQ volatility measure
-NSDQvol <- sd(NSDQret) * sqrt(250) * 100
-
-# calculate NASDAQ volatility over time with three different decay factors
-Nvoltest <- Vol(10,NSDQret)
-Nvoltest2 <- Vol(30,NSDQret)
-Nvoltest3 <- Vol(100,NSDQret)
-
-# Plot NASDAQ volatility resutls by decay factory
-plot(Nvoltest,type="l", main = "Nasdaq Volatility", ylab = "Volatility")
-lines(Nvoltest2,type="l",col="green")
-lines(Nvoltest3, type = "l", col="orange")
